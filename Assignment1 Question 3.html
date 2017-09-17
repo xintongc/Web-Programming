@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang = "en" >
+  <head>
+		
+		<title> Assignment #1/Question 3 </title>
+    	<meta name="Author" content="Xintong" />
+    	<meta charset = "utf-8" />
+
+  </head>
+  <body>
+    <h3>
+      Xintong's Apartment Search Form
+    </h3>
+    <form action = "0">
+		
+	    	<fieldset>
+
+	    	<legend>Renter(s) information</legend>
+	    	<p>
+	    	<label>How many people will live in the apartment?
+			<input type="number" name="quantity" min="1" max="5">
+			</label>
+			</p>
+			<label>Smoker?</label>
+			<label><input type ="radio" name="smoker" value = "yes"  />Yes</label>
+			<label><input type ="radio" name="smoker" value = "no"  />No</label>
+	    
+	  
+
+	    <p>
+	    	<label>Any pets?</label><br />
+	    	<label><input type ="checkbox" name="pets" value = "cat"  />Cat(s)</label><br />
+			<label><input type ="checkbox" name="pets" value = "dog"  />Dog(s)</label><br />
+			<label><input type ="checkbox" name="pets" value = "other" />Other Specify:</label>
+				  <label><input type ="text" name="pets" /></label><br />
+			<label><input type ="checkbox" name= "pets" value = "noPets" />No Pets</label><br />
+		</p>
+		
+		</fieldset>
+
+		
+			<fieldset>
+	    	<legend>What are you looking for?</legend>
+			<ul>
+				<li><label>Size of apartment:</label><br />
+					 <label><input type ="checkbox" name="size" value = "Studio"  />Studio</label>
+					 <label><input type ="checkbox" name="size" value = "3.5"  />3&frac12;</label>
+					 <label><input type ="checkbox" name="size" value = "4.5"  />4&frac12;</label>
+					 <label><input type ="checkbox" name="size" value = "5.5"  />5&frac12;</label>
+					 <label><input type ="checkbox" name="size" value = "6"  />More than 5&frac12;</label><br /><br />
+				</li>
+					 
+
+
+				<li><label>Do you have prefered locatons?</label><br />
+					<label><input type ="checkbox" name="location" value = "westIsland"  />West Island</label>
+					<label><input type ="checkbox" name="location" value = "downtowm"  />Dowmtowm</label>
+					<label><input type ="checkbox" name="location" value = "lowerWestmount"  />Lower Westmount</label>
+					<label><input type ="checkbox" name="location" value = "NDG"  />NDG</label>
+					<label><input type ="checkbox" name="location" value = "eastEndOfIsland"  />East end of island</label>
+					<label><input type ="checkbox" name="location" value = "nocare"  />Don't care</label>
+					<br /><br />
+				</li>
+
+
+				<li><label>Price Range/month:</label><br />
+				<select name = "price">
+			  	 <option value = "500"> &lt;&dollar;500 </option>
+			  	 <option value = "900"> &lt;&dollar;900 </option>
+			 	 <option value = "1200"> &lt;&dollar;1200 </option>
+			 	 <option value = "NoPriceLimit"> No price limit </option>
+				</select>
+				<br />
+				</li>
+     
+				<li><label>Would be nice to have</label><br />
+				<label><input type ="checkbox" name="nice" value = "firePlace"  />Fire place</label>
+				<label><input type ="checkbox" name="nice" value = "laund"  />Laundromat in the building</label>
+				<label><input type ="checkbox" name="nice" value = "indoorParking"  />Indoor Parking</label>
+				<label><input type ="checkbox" name="nice" value = "outputParking"  />Output Parking</label>
+				<label><input type ="checkbox" name="nice" value = "balcony"  />Balcony</label><br />
+				</li>
+
+
+
+
+			</ul>
+		
+		</fieldset>
+		<p>Let's see what we can find...</p>
+
+
+
+		<p> 
+		<input type = "submit" value = "Search" />
+		<input type = "reset" value = "Start over" />
+	 	</p>
+
+
+    </form>
+
+  </body>
+</html>
+
+
+
+
+		
+		
+
+
+
+

@@ -1,0 +1,74 @@
+body {
+    background-image: url("img/star.png");
+    background-repeat: repeat;
+    width: 200%;
+	height: 200%;
+}
+div {
+			width: 10%;
+    		border: 15px solid white;
+    		background-color: green;
+    		padding: 25px;
+    		margin: 50px;
+    		color:white;
+
+}
+
+#table{
+			margin: 50px; 
+			width: 26%;
+			color:yellow;
+			border: 15px dotted yellow;
+}
+th#t11 {
+	padding: 15px;
+	background-color: #C195E5;
+}
+th#t12 {
+	padding: 15px;
+	background-color: #664E79;
+}
+td#t21 {
+	background-color: #ECA3CC;
+	border:3px solid #8FED85;
+	
+}
+td#t22 {
+	background-color: #F66DBA;
+	border:3px solid #7B59E7;
+}
+td#t31 {
+	background-color: #FC8D98;
+	border:3px solid #52DBDB;
+	
+}
+td#t32 {
+	background-color: #FC4A5B;
+	border:3px solid #587EE6;
+}
+.roman{
+	list-style-type: upper-roman;
+
+}
+
+.latin{
+	list-style-type: upper-latin;
+}
+.armenian{
+	list-style-type: armenian;
+}
+.square{
+	list-style-type: square;
+	color: #587EE6;
+}
+ul#col{
+	color: #7B59E7;
+}
+ul#star1 {
+	list-style-image: url("img/star1.png");
+	list-style-image-size: 5px 5px;
+	
+}
+ul#star2{
+	list-style-image: url('img/star2.png');
+}
